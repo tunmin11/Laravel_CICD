@@ -19,6 +19,6 @@ class UnitTest extends TestCase
     /** @test */
     public function check()
     {
-    	$this->assertEquals(2,1+1);
+    	$this->assertEquals(3,2+1);
     }
 }
