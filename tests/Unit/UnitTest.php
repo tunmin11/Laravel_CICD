@@ -15,4 +15,10 @@ class UnitTest extends TestCase
     {
         $this->assertEquals(2,1+1);
     }
+
+    /** @test */
+    public function check()
+    {
+    	$this->assertEquals(3,1+1);
+    }
 }
